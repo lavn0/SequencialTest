@@ -1,10 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using DemoExtension.RunAs;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 
 namespace SequencialUnitTest
 {
 	[SequencialTestClass]
-	[TestClass]
+	[RunAsTestClass]
 	public class UnitTest1
 	{
 		public TestContext TestContext { get; set; }
